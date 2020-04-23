@@ -109,6 +109,8 @@ section {
 
 body {
   line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }
 
 ol,
@@ -134,9 +136,91 @@ table {
   border-spacing: 0;
 }
 
-/* YOUR CODE HERE */
+:root {
+  --gray1: #666;
+  --red1: #f72210;
+}
+
+/* footer */
+
+.footer_logo {
+  height: 2.3rem;
+  width: 14.8rem;
+}
+
+.copyright {
+  color: var(--gray1);
+  font-size: 0.75rem;
+}
 
 .fa-copyright {
-  background-color: red;
-  font-size: 15em;
+  font-size: 0.6rem;
+}
+
+.social {
+  color: var(--gray1);
+}
+
+.facebook_anchor {
+  font-size: 1.6rem;
+}
+
+.facebook_anchor:hover {
+  color: #3b5998;
+}
+
+.twitter_anchor {
+  font-size: 1.5rem;
+}
+
+.twitter_anchor:hover {
+  color: #1da1f2;
+}
+
+.instagram_anchor {
+  font-size: 1.6rem;
+}
+
+.instagram_anchor:hover {
+  color: #405de6;
+}
+
+.tumblr_anchor {
+  font-size: 1.3rem;
+}
+
+.tumblr_anchor:hover {
+  color: #35465c;
+}
+
+.linkedin_anchor {
+  font-size: 1.4rem;
+}
+
+.linkedin_anchor:hover {
+  color: #0077b5;
+}
+
+.footer_strong {
+  color: var(--gray1);
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.1rem;
+}
+
+.footer_anchor {
+  color: var(--gray1);
+}
+
+.footer_anchor:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* media queries */
+
+@media (max-width: 768px) {
+  .footer_anchor {
+    border: none !important;
+  }
 }
