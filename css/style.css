@@ -170,6 +170,14 @@ table {
   padding-bottom: 1rem;
 }
 
+.gray_heading {
+  color: rgba(3, 3, 3, 0.4);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 0.7rem;
+}
+
 .red_heading {
   color: var(--red1);
   font-family: "Roboto Condensed", sans-serif;
