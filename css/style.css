@@ -149,11 +149,11 @@ table {
   background-color: var(--gray0) !important;
 }
 
+/* headings */
+
 .heading_logo {
   width: 1.75rem;
 }
-
-/* headings */
 
 .heading1 {
   font-family: "Roboto Condensed", sans-serif;
@@ -176,6 +176,11 @@ table {
   font-size: 1rem;
   font-weight: bold;
   padding-bottom: 0.7rem;
+}
+
+.gray_heading:hover {
+  color: rgba(3, 3, 3, 0.4);
+  text-decoration: none;
 }
 
 .red_heading {
@@ -229,6 +234,89 @@ table {
   background-color: #dbdcdd;
   color: #000;
   text-decoration: none;
+}
+
+/* debate */
+
+.red_border {
+  border-top: 0.3rem solid var(--red1);
+}
+
+.blue_border {
+  border-top: 0.3rem solid #1c87fb;
+}
+
+.link_dabate {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  color: #000;
+}
+
+.link_dabate:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.double_border {
+  border-top: 0.3rem double #d9d9d9;
+  margin-top: 0.9rem;
+  position: relative;
+  height: 2.5rem;
+}
+
+.double_border p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 100;
+  color: var(--gray1);
+}
+
+.double_border a {
+  color: #000;
+}
+
+.double_border a:hover {
+  text-decoration: none;
+}
+
+.double_border img {
+  width: 4rem;
+  position: absolute;
+  right: 0;
+  top: -0.9rem;
+}
+
+.versus {
+  background-color: #000;
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 900;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 1.8rem auto;
+}
+
+/* opinion */
+
+.opinion_heading {
+  color: #000;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+}
+
+.opinion_heading:hover {
+  color: var(--red1);
+  text-decoration: none;
+}
+
+.opinion {
+  color: #555;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 900;
+  font-size: 0.85rem;
+  text-transform: uppercase;
 }
 
 /* megazine */
