@@ -177,12 +177,24 @@ table {
   padding-bottom: 0.5rem;
 }
 
+.red_heading2 {
+  color: var(--red1);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.37rem;
+  padding-bottom: 0.5rem;
+}
+
+.red_heading2:hover {
+  color: var(--red1);
+  text-decoration: none;
+}
+
 /* buttons */
 
 .red_button {
   background-color: var(--red1);
   color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1rem;
   font-weight: 700;
   padding: 0.6rem 0.7rem;
@@ -194,6 +206,74 @@ table {
   text-decoration: none;
 }
 
+.gray_button {
+  background-color: var(--gray0);
+  color: #000;
+  display: block;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 0.7rem;
+  text-align: center;
+}
+
+.gray_button:hover {
+  background-color: #dbdcdd;
+  color: #000;
+  text-decoration: none;
+}
+
+/* megazine */
+
+.megazine_conver {
+  width: 100%;
+  overflow: hidden;
+}
+
+.megazine_article_img {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  width: 100%;
+  height: 25vw;
+}
+
+.megazine_category {
+  background-color: #e6e7e7;
+  color: var(--red1);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  padding: 0.3rem 0.5rem;
+}
+
+.megazine_category:hover {
+  color: var(--red1);
+  text-decoration: none;
+}
+
+.megazine_section {
+  background-color: var(--red1);
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  padding: 0.3rem 0.5rem;
+}
+
+.megazine_link_heading2 {
+  color: #000;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+.megazine_link_heading2:hover {
+  color: #000;
+  text-decoration: underline #f72210;
+}
+
 /* articles */
 
 .wrap {
@@ -203,8 +283,19 @@ table {
 }
 
 .article_img {
+  cursor: pointer;
   width: 100%;
   height: 28vw;
+}
+
+.article2_img {
+  cursor: pointer;
+  width: 100%;
+  height: 19vw;
+}
+
+.article3_img {
+  cursor: pointer;
 }
 
 .category {
@@ -234,6 +325,19 @@ table {
 .link_heading2:hover {
   color: #000;
   text-decoration: underline #f72210;
+}
+
+.link_heading3 {
+  color: #000;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.3rem;
+}
+
+.link_heading3:hover {
+  color: #f72210;
+  text-decoration: none;
 }
 
 .article_text {
@@ -348,10 +452,21 @@ table {
     font-size: 1.3rem;
   }
 
+  /* megazine */
+
+  .megazine_article_img {
+    height: 60vw;
+    background-size: cover;
+  }
+
   /* articles */
 
   .article_img {
     height: 62vw;
+  }
+
+  .article2_img {
+    height: 61vw;
   }
 
   /* subscribe and newsletter */
@@ -390,6 +505,10 @@ table {
 
   .article_img {
     height: 14vw;
+  }
+
+  .article2_img {
+    height: 19vw;
   }
 
   /* subscribe and newsletter */
