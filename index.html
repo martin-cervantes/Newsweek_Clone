@@ -17,9 +17,39 @@
     </head>
 
     <body>
-        <nav>
-            <img src="img/search-glass.svg" alt="">
-            <img src="img/weather.png" alt="">
+        <nav class="nav_container">
+            <div class="d-flex justify-content-between pb-3">
+                <div class="d-flex flex-column justify-content-around pl-4 pt-3">
+                    <a class="weather" href="#"><img src="img/weather.png" alt=""> 21° Ciudad Juárez, MX <i class="fas fa-chevron-right"></i></a>
+
+                    <p class="date">Wed, Apr 22, 2020</p>
+                </div>
+
+                <div class="pt-3">
+                    <a href="#"><img class="header_logo" src="img/white_logo.svg" alt="Logo"></a>
+                </div>
+
+                <div class="d-flex align-items-end">
+                    <a class="signin mr-3" href="#">SIGN IN</a>
+                    <a class="white_button mr-2" href="#">SUBSCRIBE<span class="pl-2"><i class="fas fa-chevron-right"></i></span></a>
+                </div>
+            </div>
+
+            <div class="nav_bar bg-white py-3 border-bottom">
+                <a class="nav_item border-right" href="#">U.S.</a>
+                <a class="nav_item border-right" href="#">World</a>
+                <a class="nav_item border-right" href="#">Business</a>
+                <a class="nav_item border-right" href="#">Tech & Science</a>
+                <a class="nav_item border-right" href="#">Culture</a>
+                <a class="nav_item border-right" href="#">Newsgeek</a>
+                <a class="nav_item border-right" href="#">Sports</a>
+                <a class="nav_item border-right" href="#">Health</a>
+                <a class="nav_item border-right" href="#">The Debate</a>
+                <a class="nav_item border-right" href="#">Vantage</a>
+                <a class="nav_item" href="#">Weather</a>
+                <input type="text" name="search" placeholder="Search">
+                <img class="search" src="img/search-glass.svg" alt="">
+            </div>
         </nav>
 
         <main>

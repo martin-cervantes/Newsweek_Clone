@@ -204,6 +204,20 @@ table {
 
 /* buttons */
 
+.white_button {
+  background-color: #fff;
+  color: var(--red1);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 0.2rem 0.8rem;
+}
+
+.white_button:hover {
+  color: var(--red1);
+  text-decoration: none;
+}
+
 .red_button {
   background-color: var(--red1);
   color: #fff;
@@ -234,6 +248,92 @@ table {
   background-color: #dbdcdd;
   color: #000;
   text-decoration: none;
+}
+
+/* navbar */
+
+.nav_container {
+  background-color: var(--red1);
+}
+
+.weather {
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.weather:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.weather img {
+  width: 1.3rem;
+}
+
+.date {
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 0.9rem;
+}
+
+.header_logo {
+  height: 4rem;
+}
+
+.signin {
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.signin:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav_bar {
+  position: relative;
+}
+
+.nav_bar::before {
+  background-color: var(--red1);
+  border-left: 0.7rem solid #fff;
+  border-top: 0.8rem solid var(--red1);
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 4.5rem;
+}
+
+.nav_item {
+  color: #000;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0.1rem 0.65rem;
+}
+
+.nav_item:hover {
+  color: var(--red1);
+  text-decoration: none;
+}
+
+input[type="text"] {
+  background-color: #fff;
+  border: none;
+  color: var(--gray1);
+  font-size: 1rem;
+  width: 3.5rem;
+}
+
+.search {
+  height: 1.2rem;
 }
 
 /* opinion */
