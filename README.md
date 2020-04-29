@@ -1,6 +1,6 @@
 # Project Name
 
-    Project brief description
+    This project is about creating a replica of the Newsweek.com news site using the Bootstrap framework.
 
 ![screenshot](./screenshot.png)
 
@@ -8,22 +8,12 @@
 
     - Plain HTML5
     - Pure CSS3
+    - Font Awesome
+    - Bootstrap
 
 ## :mag: Live Demo
 
-[Live Demo Link](https://mcervantes71.github.io//index.html)
-
-## :computer: Getting Started
-
-    To get a local copy up and running follow these simple steps.
-
-### Install
-
-    Download the repository.
-
-### Usage
-
-    In any browser, open the index.html file.
+[Live Demo Link](https://rawcdn.githack.com/mcervantes71/Newsweek_Clone/bd0f6fc531885a384c22fdaf0c4130946f403caa/index.html)
 
 ## :busts_in_silhouette: Authors
 
