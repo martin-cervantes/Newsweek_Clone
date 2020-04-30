@@ -499,7 +499,6 @@ input[type="text"] {
 }
 
 .sponsor_img {
-  cursor: pointer;
   height: 28vw;
   width: 100%;
 }
@@ -637,7 +636,6 @@ input[type="text"] {
 }
 
 .megazine_article_img {
-  cursor: pointer;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -689,19 +687,13 @@ input[type="text"] {
 }
 
 .article_img {
-  cursor: pointer;
   height: 28vw;
   width: 100%;
 }
 
 .article2_img {
-  cursor: pointer;
   height: 19vw;
   width: 100%;
-}
-
-.article3_img {
-  cursor: pointer;
 }
 
 .category {
@@ -919,8 +911,9 @@ input[type="text"] {
 
   /* subscribe and newsletter */
 
+  section,
   .subscribe_container,
-  section {
+  .sponsor_section {
     margin-bottom: 1rem;
   }
 
