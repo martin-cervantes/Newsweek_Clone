@@ -623,6 +623,8 @@ input[type="text"] {
 /* megazine */
 
 .megazine_cover {
+  height: 28vw;
+  max-height: 23.25rem;
   overflow: hidden;
   width: 100%;
 }
@@ -632,7 +634,7 @@ input[type="text"] {
   background-attachment: scroll;
   background-position: center center;
   width: 100%;
-  height: 25vw;
+  height: 21vw;
   background-color: rgba(0, 0, 0, 0);
 }
 
@@ -915,6 +917,11 @@ input[type="text"] {
   }
 
   /* megazine */
+
+  .megazine_cover {
+    height: 120vw;
+    max-height: 58rem;
+  }
 
   .megazine_article_img {
     background-size: cover;
