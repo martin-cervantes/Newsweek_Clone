@@ -6760,6 +6760,10 @@ button.bg-light:focus {
   background-color: #dae0e5 !important;
 }
 
+.bg_gray0 {
+  background-color: #f4f5f7 !important;
+}
+
 .bg-dark {
   background-color: #343a40 !important;
 }
@@ -6854,6 +6858,12 @@ button.bg-dark:focus {
   border-color: #fff !important;
 }
 
+@media (max-width: 768px) {
+  .footer_anchor {
+    border: none !important;
+  }
+}
+
 .rounded-sm {
   border-radius: 0.2rem !important;
 }
@@ -6940,6 +6950,12 @@ button.bg-dark:focus {
 .d-inline-flex {
   display: -ms-inline-flexbox !important;
   display: inline-flex !important;
+}
+
+@media (max-width: 510px) {
+  .forecast {
+    display: none !important;
+  }
 }
 
 @media (min-width: 576px) {
