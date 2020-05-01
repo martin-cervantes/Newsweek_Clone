@@ -17,12 +17,12 @@
 
 ## :busts_in_silhouette: Authors
 
-👤 **Author1**
+👤 **Martin Cervantes**
 
-- Gmail: [Martin Cervantes](mailto:cervantes.martine@gmail.com)
-- Github: [@mcervantes71](https://github.com/mcervantes71)
-- Twitter: [@M4rt1nC3rv4nt3s](https://twitter.com/M4rt1nC3rv4nt3s)
 - Linkedin: [Martin Cervantes](https://www.linkedin.com/in/cervantesmartin/)
+- Twitter: [@M4rt1nC3rv4nt3s](https://twitter.com/M4rt1nC3rv4nt3s)
+- Github: [@mcervantes71](https://github.com/mcervantes71)
+- Gmail: [cervantes.martine](mailto:cervantes.martine@gmail.com)
 
 ## 🤝 Contributing
 
