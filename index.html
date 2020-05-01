@@ -5,14 +5,1278 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <title>Document</title>
+        <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
 
+        <link rel="icon" type="image/x-icon" href="img/icon.png">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap">
+        <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/font_awesome.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
+
     <body>
-        <i class="far fa-copyright"></i>
-        
+        <div class="container">
+            <nav class="nav_container">
+                <div class="d-flex justify-content-between px-2 py-2">
+                    <div class="group d-flex justify-content-between">
+                        <div class="forecast order-2 order-lg-1 d-flex flex-column justify-content-around pl-4 pt-lg-1">
+                            <a class="weather d-flex align-items-center font-weight-bolder" href="#"><img class="pr-1" src="img/weather.png" alt="weather" /> 21° <span class="city pl-2">Ciudad Juárez, MX <i class="fas fa-chevron-right"></i></span></a>
+
+                            <p class="date d-none d-lg-block">Wed, Apr 22, 2020</p>
+                        </div>
+
+                        <div class="order-1 order-lg-2 pt-lg-3">
+                            <a href="#"><img class="header_logo" src="img/white_logo.svg" alt="Logo" /></a>
+                        </div>
+                    </div>
+
+                    <div class="order-3 d-flex align-items-end">
+                        <a class="signin mr-3 mb-1 font-weight-bolder" href="#">SIGN IN</a>
+                        <a class="white_button mr-2 mb-1 font-weight-bolder" href="#">SUBSCRIBE<span class="pl-2"><i class="fas fa-chevron-right"></i></span></a>
+                        <a href="#"><i class="fas fa-bars fa-2x ml-2 text-white"></i></a>
+                    </div>
+                </div>
+
+                <div class="nav_bar d-none d-lg-flex justify-content-around bg-white py-3 border-bottom">
+                    <a class="nav_item text-center flex-grow-1 border-right font-weight-bolder" href="#">U.S.</a>
+                    <a class="nav_item text-center flex-grow-1 border-right font-weight-bolder" href="#">World</a>
+                    <a class="nav_item text-center flex-grow-1 border-right font-weight-bolder" href="#">Business</a>
+                    <a class="nav_item text-center flex-grow-1 border-right font-weight-bolder" href="#">Tech & Science</a>
+                    <a class="nav_item text-center flex-grow-1 border-right font-weight-bolder" href="#">Culture</a>
+                    <a class="nav_item text-center flex-grow-1 border-right font-weight-bolder" href="#">Newsgeek</a>
+                    <a class="nav_item text-center flex-grow-1 border-right font-weight-bolder" href="#">Sports</a>
+                    <a class="nav_item text-center flex-grow-1 border-right font-weight-bolder" href="#">Health</a>
+                    <a class="nav_item text-center flex-grow-1 border-right font-weight-bolder" href="#">The Debate</a>
+                    <a class="nav_item text-center flex-grow-1 border-right font-weight-bolder" href="#">Vantage</a>
+                    <a class="nav_item text-center flex-grow-1 font-weight-bolder" href="#">Weather</a>
+                    <input type="text" name="search" placeholder="Search" />
+                    <img class="search" src="img/search-glass.svg" alt="search" />
+                    <div class="space"></div>
+                </div>
+            </nav>
+
+            <main class="pt-lg-5">
+                <div class="row mt-lg-5 pt-5">
+                    <div class="column1 relative">
+                        <section class="show bg-white p-3">
+                            <h2 class="gray_heading font-weight-bolder">TOP STORY</h2>
+
+                            <article class="pb-3">
+                                <div class="wrap">
+                                    <a href="#"><img class="top_article_img" src="img/top1.jpg" alt="Nowhere" /></a>
+
+                                    <a class="category font-weight-bolder" href="#">EDUCATION</a>
+                                </div>
+
+                                <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">The Class of 2020 Is All Dressed Up With Nowhere to Go</a></h2>
+
+                                <p class="article_text">Students graduating from college this year were born soon after 9/11, grew up during the Great Recession and are launching into adulthood amid a global pandemic. How much more can Gen Z take?</p>
+                            </article>
+                        </section>
+
+                        <section class="bg-white p-3">
+                            <h2 class="gray_heading font-weight-bolder">FEATURES STORIES</h2>
+
+                            <article class="pb-3">
+                                <div class="wrap">
+                                    <a href="#"><img class="feature_article_img" src="img/feature1.jpg" alt="China" /></a>
+
+                                    <a class="category font-weight-bolder" href="#">WORLD</a>
+                                </div>
+
+                                <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">Does China Have Any Friends Left in the West?</a></h2>
+
+                                <p class="article_text">Rather than being China's "best partner," the U.K. might be China's only friend left in the West and even that friendship is under threat.</p>
+                            </article>
+
+                            <article class="pb-3">
+                                <div class="wrap">
+                                    <a href="#"><img class="feature_article_img" src="img/feature2.jpg" alt="Russia" /></a>
+
+                                    <a class="category font-weight-bolder" href="#">WORLD</a>
+                                </div>
+
+                                <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">Russia Coronavirus Cases Overtake China</a></h2>
+
+                                <p class="article_text">Russia now has the ninth highest number of confirmed coronavirus infections in the world, with 794 having died from the pandemic so far.</p>
+                            </article>
+
+                            <article class="pb-3">
+                                <div class="wrap">
+                                    <a href="#"><img class="feature_article_img" src="img/feature3.jpg" alt="Graham" /></a>
+
+                                    <a class="category font-weight-bolder" href="#">U.S.</a>
+                                </div>
+
+                                <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">Sen. Graham Says He Wants Surgical Masks to be Made in America</a></h2>
+
+                                <p class="article_text">The GOP congressman added that the U.S. should not "rely on China or anyone else" for vital medical supplies.</p>
+                            </article>
+
+                            <article class="pb-3">
+                                <div class="wrap">
+                                    <a href="#"><img class="feature_article_img" src="img/feature4.jpg" alt="Credit" /></a>
+
+                                    <a class="category font-weight-bolder" href="#">U.S.</a>
+                                </div>
+
+                                <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">Credit Card Companies Suddenly Lowering Limits, Analysts Offer Advice</a></h2>
+
+                                <p class="article_text">The coronavirus crisis has caused many lenders to tighten credit by cutting limits and canceling cards, but there is action you can take to keep your lines of credit open.</p>
+                            </article>
+
+                            <article class="pb-3">
+                                <div class="wrap">
+                                    <a href="#"><img class="feature_article_img" src="img/feature5.jpg" alt="Economy" /></a>
+
+                                    <a class="category font-weight-bolder" href="#">U.S.</a>
+                                </div>
+
+                                <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">Bank of America CEO: Economy Won't Fully Rebound Until 'Late Next Year'</a></h2>
+
+                                <p class="article_text">Treasury Secretary Steve Mnuchin offered a more optimistic assessment, saying that the economy would "really bounce back in July and August."</p>
+                            </article>
+                        </section>
+
+                        <section class="show bg-white p-3">
+                            <h3 class="pb-2"><a class="gray_heading font-weight-bolder" href="#">OPINION</a></h3>
+
+                            <div class="d-flex border-bottom py-2">
+                                <a href="#"><img src="img/opinion1.png" alt="Opinion" /></a>
+
+                                <div class="pl-3">
+                                    <p class="pt-2"><a href="#" class="opinion_heading font-weight-bolder">The Coronavirus Crisis Is Flint, Writ Large</a></p>
+
+                                    <p class="opinion pt-2 font-weight-bold">By Candy J. Cooper With Marc Aronson</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex border-bottom py-2">
+                                <a href="#"><img src="img/opinion2.png" alt="Opinion" /></a>
+
+                                <div class="pl-3">
+                                    <p class="pt-2"><a href="#" class="opinion_heading font-weight-bolder">Don't Bail Out Fossil Fuels. Buy Them Out Instead</a></p>
+
+                                    <p class="opinion pt-2 font-weight-bold">By Wenonah Hauter</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex border-bottom py-2">
+                                <a href="#"><img src="img/opinion3.png" alt="Opinion" /></a>
+
+                                <div class="pl-3">
+                                    <p class="pt-2"><a href="#" class="opinion_heading font-weight-bolder">Most U.S. Hospitals Are Empty. Soon They Might Be Closed for Good </a></p>
+
+                                    <p class="opinion pt-2 font-weight-bold">By Rick Jackson</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex py-2 mb-3">
+                                <a href="#"><img src="img/opinion4.png" alt="Opinion" /></a>
+
+                                <div class="pl-3">
+                                    <p class="pt-2"><a href="#" class="opinion_heading font-weight-bolder">California's Pandemic Response Must Balance Health vs. Economy</a></p>
+
+                                    <p class="opinion pt-2 font-weight-bold">By John Cox</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="show bg-white p-3 pb-4">
+                            <h3 class="pb-3"><a class="gray_heading font-weight-bolder" href="#">THE DEBATE</a></h3>
+
+                            <div class="red_border d-flex">
+                                <a href="#"><img src="img/debate1.jpg" alt="debate" /></a>
+
+                                <div class="pl-3 d-flex align-items-center"><a class="link_debate font-weight-bolder" href="#">Trump's Right. The WHO Is Not Fit for Purpose</a></div>
+                            </div>
+
+                            <div class="double_border d-flex align-items-center">
+                                <a href="#"><img src="img/headshot1.png" alt="HEAD" /></a>
+
+                                <p class="font-weight-bold">BY <a href="#">NIGEL FARAGE</a></p>
+                            </div>
+
+                            <div class="versus d-flex justify-content-center align-items-center font-weight-bolder">VS</div>
+
+                            <div class="blue_border d-flex">
+                                <a href="#"><img src="img/debate2.jpg" alt="debate" /></a>
+
+                                <div class="pl-3 d-flex align-items-center"><a class="link_debate font-weight-bolder" href="#">Defunding the WHO Mid-Pandemic Is Lunacy</a></div>
+                            </div>
+
+                            <div class="double_border d-flex align-items-center">
+                                <a href="#"><img src="img/headshot2.png" alt="HEAD" /></a>
+
+                                <p class="font-weight-bold">BY <a href="#">JAMIE METZL</a></p>
+                            </div>
+                        </section>
+
+                        <div class="sponsor_section bg-white p-1 sticky">
+                            <article class="pt-3 pb-3">
+                                <div class="wrap">
+                                    <a href="#"><img class="sponsor_img" src="img/sponsor1.jpg" alt="Sponsor" /></a>
+
+                                    <p class="sponsor_category font-weight-bolder">SPONSORED INSIGHT</p>
+                                </div>
+
+                                <div class="sponsor_border">
+                                    <h2 class="pb-2"><a class="sponsor_heading font-weight-bolder" href="#">Weathering the Perfect Storm</a></h2>
+
+                                    <p class="sponsor_text">COVID-19 is not our only enemy. While the world confronts a pandemic, our critical infrastructure is vulnerable to cyberattack. Read this new report on where the weak points are and how to strengthen defenses against terrorists and cyber-criminals.</p>
+                                </div>
+                            </article>
+
+                            <article class="pb-3">
+                                <a href="#"><img class="sponsor_img" src="img/sponsor2.jpg" alt="Sponsor" /></a>
+
+                                <div class="sponsor_border">
+                                    <h2 class="pb-2"><a class="sponsor_heading font-weight-bolder" href="#">World's Best Hospitals 2020</a></h2>
+
+                                    <p class="sponsor_text">Newsweek partnered with Statista Inc. to rank the leading hospitals in 21 countries</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <div class="wrap">
+                                    <a href="#"><img class="sponsor_img" src="img/sponsor3.jpg" alt="Sponsor" /></a>
+
+                                    <p class="sponsor_category font-weight-bolder">SPONSORED INSIGHT</p>
+                                </div>
+
+                                <div class="sponsor_border">
+                                    <h2><a class="sponsor_heading font-weight-bolder" href="#">Who Leads the Field in Dependency Treatment in 2020?</a></h2>
+
+                                    <p class="sponsor_text">When seeking guidance on beating an addiction, there are many things to consider. Where do you go to ensure that you will not just turn the corner, but keep carrying on down the right road for the rest of your life? Find out more.</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="column2 relative">
+                        <section class="show_md bg-white p-3">
+                            <h2 class="gray_heading font-weight-bolder">TOP STORY</h2>
+
+                            <article class="pb-3">
+                                <div class="wrap">
+                                    <a href="#"><img class="top_article_img" src="img/top1.jpg" alt="Nowhere" /></a>
+
+                                    <a class="category font-weight-bolder" href="#">EDUCATION</a>
+                                </div>
+
+                                <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">The Class of 2020 Is All Dressed Up With Nowhere to Go</a></h2>
+
+                                <p class="article_text">Students graduating from college this year were born soon after 9/11, grew up during the Great Recession and are launching into adulthood amid a global pandemic. How much more can Gen Z take?</p>
+                            </article>
+                        </section>
+
+                        <section class="show bg-white p-3">
+                            <h2 class="gray_heading font-weight-bolder">MORE STORIES</h2>
+
+                            <article class="stories d-flex border-top">
+                                <a href="#"><img src="img/storie1.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="stories_heading font-weight-bolder" href="#">Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a></h2>
+
+                                    <p class="stoires_text">Researchers in Italy first reported skin problems as a potential COVID-19 symptom in March.</p>
+                                </div>
+                            </article>
+
+                            <article class="stories d-flex border-top">
+                                <a href="#"><img src="img/storie2.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="stories_heading font-weight-bolder" href="#">Ridgecrest Earthquake, Potential Landslides in California</a></h2>
+
+                                    <p class="stoires_text">A heatwave is also ravishing the Desert Southwest, making California more vulnerable to landslides.</p>
+                                </div>
+                            </article>
+
+                            <article class="stories d-flex border-top">
+                                <a href="#"><img src="img/storie3.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="stories_heading font-weight-bolder" href="#">Boris Johnson Returns to Work but Says Lockdown Must Go On</a></h2>
+
+                                    <p class="stoires_text">Boris Johnson has returned to work today, three weeks after he was hospitalized with the coronavirus.</p>
+                                </div>
+                            </article>
+
+                            <article class="stories d-flex border-top">
+                                <a href="#"><img src="img/storie4.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="stories_heading font-weight-bolder" href="#">Advice to the Class of 2020 from People Who Graduated in the Last Recession</a></h2>
+
+                                    <p class="stoires_text">Seven tips to help this year's college seniors succeed from experts who got their own degrees during the Great Recession and other crises—and made out just fine anyway</p>
+                                </div>
+                            </article>
+
+                            <article class="stories d-flex border-top">
+                                <a href="#"><img src="img/storie5.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="stories_heading font-weight-bolder" href="#">COVID-19 Detected on Two Dutch Mink Farms</a></h2>
+
+                                    <p class="stoires_text">Investigations are in place to work out how the animals in the Netherlands' southern province of Noord-Brabant became infected with the novel coronavirus.</p>
+                                </div>
+                            </article>
+
+                            <article class="stories d-flex border-top">
+                                <a href="#"><img src="img/storie6.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="stories_heading font-weight-bolder" href="#">Mother Teresa's Lawyer Tells GOP Candidate to Stop Using Her Image in Ads</a></h2>
+
+                                    <p class="stoires_text">Chuck Dietzen, who is running for election to the U.S. House to represent Indiana's 5th Congressional District, used a photo of Mother Teresa in one of his election videos.</p>
+                                </div>
+                            </article>
+
+                            <article class="stories d-flex border-top">
+                                <a href="#"><img src="img/storie7.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="stories_heading font-weight-bolder" href="#">Sweden's U.S. Ambassador Says Stockholm Is Close to COVID-19 Herd Immunity</a></h2>
+
+                                    <p class="stoires_text">There is currently no scientific proof that people who have recovered from COVID-19 are protected from a second infection.</p>
+                                </div>
+                            </article>
+
+                            <article class="stories d-flex border-top">
+                                <a href="#"><img src="img/storie8.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="stories_heading font-weight-bolder" href="#">Dr. Deborah Birx Says Social Distancing Must Continue Through Summer Months</a></h2>
+
+                                    <p class="stoires_text">The White House Coronavirus Task Force member noted that many governors understand the process of reopening must be very gradual.</p>
+                                </div>
+                            </article>
+
+                            <article class="stories d-flex border-top">
+                                <a href="#"><img src="img/storie9.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="stories_heading font-weight-bolder" href="#">Poison Control Calls Spike in NY, Michigan and Illinois After Trump Remarks</a></h2>
+
+                                    <p class="stoires_text">Faced with widespread backlash, Trump said he was merely being sarcastic when he suggested injecting disinfectant products should be looked into as a method to treat coronavirus patients.</p>
+                                </div>
+                            </article>
+
+                            <article class="stories d-flex border-top">
+                                <a href="#"><img src="img/storie10.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="stories_heading font-weight-bolder" href="#">Pompeo Defends Homeschooling, Says Leftists Are Indoctrinating Children</a></h2>
+
+                                    <p class="stoires_text">The secretary of state accused radical-left academics of "seeking to impose their values on our children."</p>
+                                </div>
+                            </article>
+
+                            <article class="stories d-flex border-top">
+                                <a href="#"><img src="img/storie11.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="stories_heading font-weight-bolder" href="#">Maryland Prepares for Special Congressional Election With Vote-by-Mail</a></h2>
+
+                                    <p class="stoires_text">Maryland voters are participating in the state's first predominantly all-mail election for a congressional representative to complete Elijah Cummings' term following the politician's death in October 2019.</p>
+                                </div>
+                            </article>
+                        </section>
+
+                        <section class="bg-white p-3">
+                            <h2 class="pb-3"><a class="gray_heading font-weight-bolder" href="#">HEROES OF THE PANDEMIC</a></h2>
+
+                            <div class="row">
+                                <article class="sub_column people mb-4 mr-md-3">
+                                    <div class="wrap mb-3">
+                                        <img class="people_img" src="img/hero1.jpg" alt="heroes" />
+                                        <a class="tag" href="#">Pandemic Heroes</a>
+                                    </div>
+
+                                    <h2 class="mb-2"><a class="people_heading" href="#">Teenagers Shop for the Vulnerable During Coronavirus Emergency</a></h2>
+
+                                    <p class="people_text">"I almost cried," said a user of Six Feet Supplies, a charity started by teenagers who shop for those susceptible to COVID-19.</p>
+                                </article>
+
+                                <article class="sub_column people mb-4 mr-md-3">
+                                    <div class="wrap mb-3">
+                                        <img class="people_img" src="img/hero2.jpg" alt="heroes" />
+                                        <a class="tag" href="#">Pandemic Heroes</a>
+                                    </div>
+
+                                    <h2 class="mb-2"><a class="people_heading" href="#">Tennessee Group Makes Coronavirus Face Masks for Local, International Use</a></h2>
+
+                                    <p class="people_text">"We're not selling anything," Sacco said Tuesday. "Every single bit of this is donation-only or nothing."</p>
+                                </article>
+
+                                <article class="sub_column people mb-4">
+                                    <div class="wrap mb-3">
+                                        <img class="people_img" src="img/hero3.jpg" alt="heroes" />
+                                        <a class="tag" href="#">Pandemic Heroes</a>
+                                    </div>
+
+                                    <h2 class="mb-2"><a class="people_heading" href="#">Organizer Helps Rebuild New York's Filipino Community Hit by COVID-19</a></h2>
+
+                                    <p class="people_text">"When this whole thing started what kept me up at night is the possibility of mass casualties in our community," Riya Ortiz told Newsweek.</p>
+                                </article>
+                            </div>
+
+                            <h2 class="pb-2"><a class="gray_heading font-weight-bolder" href="#">CULTURE & TRAVEL</a></h2>
+
+                            <div class="row">
+                                <article class="sub_column people mb-4 mr-md-3">
+                                    <div class="wrap mb-3">
+                                        <img class="people_img" src="img/culture1.jpg" alt="heroes" />
+                                        <a class="tag" href="#">Travel</a>
+                                    </div>
+
+                                    <h2 class="mb-2"><a class="people_heading" href="#">Take a Virtual Vacation With These Travel-Inspiring Films</a></h2>
+
+                                    <p class="people_text">From "The Beach" to "Into the Wild", these movies have the power to take you away from reality for a few hours and let you dream of a post-pandemic adventure.</p>
+                                </article>
+
+                                <article class="sub_column people mb-4 mr-md-3">
+                                    <div class="wrap mb-3">
+                                        <img class="people_img" src="img/culture2.jpg" alt="heroes" />
+                                        <a class="tag" href="#">James Goodall</a>
+                                    </div>
+
+                                    <h2 class="mb-2"><a class="people_heading" href="#">A Conversation With Jane Goodall on the Pandemic and Hope for the Planet</a></h2>
+
+                                    <p class="people_text">Goodall talks to Newsweek about the pandemic, her new documentary and the most important message she hopes her life's work leaves behind.</p>
+                                </article>
+
+                                <article class="sub_column people mb-4">
+                                    <div class="wrap mb-3">
+                                        <img class="people_img" src="img/culture3.jpg" alt="heroes" />
+                                        <a class="tag" href="#">Earth day</a>
+                                    </div>
+
+                                    <h2 class="mb-2"><a class="people_heading" href="#">13 Spectacular Photos of the Planet From the Lens of a Travel Photographer</a></h2>
+
+                                    <p class="people_text">As we celebrate the 50th anniversary of Earth Day, a travel photographer looks back on her favorite photos she's taken around the world.</p>
+                                </article>
+                            </div>
+                        </section>
+
+                        <section class="show_md bg-white p-3 sticky">
+                            <h2 class="gray_heading font-weight-bolder">MORE STORIES</h2>
+
+                            <article class="stories d-flex border-top">
+                                <a href="#"><img src="img/storie1.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="stories_heading font-weight-bolder" href="#">Skin Rashes May Be Symptom of Coronavirus, Scientists Say</a></h2>
+
+                                    <p class="stoires_text">Researchers in Italy first reported skin problems as a potential COVID-19 symptom in March.</p>
+                                </div>
+                            </article>
+
+                            <article class="stories d-flex border-top">
+                                <a href="#"><img src="img/storie2.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="stories_heading font-weight-bolder" href="#">Ridgecrest Earthquake, Potential Landslides in California</a></h2>
+
+                                    <p class="stoires_text">A heatwave is also ravishing the Desert Southwest, making California more vulnerable to landslides.</p>
+                                </div>
+                            </article>
+
+                            <article class="stories d-flex border-top">
+                                <a href="#"><img src="img/storie3.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="stories_heading font-weight-bolder" href="#">Boris Johnson Returns to Work but Says Lockdown Must Go On</a></h2>
+
+                                    <p class="stoires_text">Boris Johnson has returned to work today, three weeks after he was hospitalized with the coronavirus.</p>
+                                </div>
+                            </article>
+
+                            <article class="stories d-flex border-top">
+                                <a href="#"><img src="img/storie4.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="stories_heading font-weight-bolder" href="#">Advice to the Class of 2020 from People Who Graduated in the Last Recession</a></h2>
+
+                                    <p class="stoires_text">Seven tips to help this year's college seniors succeed from experts who got their own degrees during the Great Recession and other crises—and made out just fine anyway</p>
+                                </div>
+                            </article>
+
+                            <article class="stories d-flex border-top">
+                                <a href="#"><img src="img/storie5.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="stories_heading font-weight-bolder" href="#">COVID-19 Detected on Two Dutch Mink Farms</a></h2>
+
+                                    <p class="stoires_text">Investigations are in place to work out how the animals in the Netherlands' southern province of Noord-Brabant became infected with the novel coronavirus.</p>
+                                </div>
+                            </article>
+
+                            <article class="stories d-flex border-top">
+                                <a href="#"><img src="img/storie6.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="stories_heading font-weight-bolder" href="#">Mother Teresa's Lawyer Tells GOP Candidate to Stop Using Her Image in Ads</a></h2>
+
+                                    <p class="stoires_text">Chuck Dietzen, who is running for election to the U.S. House to represent Indiana's 5th Congressional District, used a photo of Mother Teresa in one of his election videos.</p>
+                                </div>
+                            </article>
+
+                            <article class="stories d-flex border-top">
+                                <a href="#"><img src="img/storie7.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="stories_heading font-weight-bolder" href="#">Sweden's U.S. Ambassador Says Stockholm Is Close to COVID-19 Herd Immunity</a></h2>
+
+                                    <p class="stoires_text">There is currently no scientific proof that people who have recovered from COVID-19 are protected from a second infection.</p>
+                                </div>
+                            </article>
+
+                            <article class="stories d-flex border-top">
+                                <a href="#"><img src="img/storie8.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="stories_heading font-weight-bolder" href="#">Dr. Deborah Birx Says Social Distancing Must Continue Through Summer Months</a></h2>
+
+                                    <p class="stoires_text">The White House Coronavirus Task Force member noted that many governors understand the process of reopening must be very gradual.</p>
+                                </div>
+                            </article>
+
+                            <article class="stories d-flex border-top">
+                                <a href="#"><img src="img/storie9.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="stories_heading font-weight-bolder" href="#">Poison Control Calls Spike in NY, Michigan and Illinois After Trump Remarks</a></h2>
+
+                                    <p class="stoires_text">Faced with widespread backlash, Trump said he was merely being sarcastic when he suggested injecting disinfectant products should be looked into as a method to treat coronavirus patients.</p>
+                                </div>
+                            </article>
+
+                            <article class="stories d-flex border-top">
+                                <a href="#"><img src="img/storie10.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="stories_heading font-weight-bolder" href="#">Pompeo Defends Homeschooling, Says Leftists Are Indoctrinating Children</a></h2>
+
+                                    <p class="stoires_text">The secretary of state accused radical-left academics of "seeking to impose their values on our children."</p>
+                                </div>
+                            </article>
+
+                            <article class="stories d-flex border-top">
+                                <a href="#"><img src="img/storie11.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="stories_heading font-weight-bolder" href="#">Maryland Prepares for Special Congressional Election With Vote-by-Mail</a></h2>
+
+                                    <p class="stoires_text">Maryland voters are participating in the state's first predominantly all-mail election for a congressional representative to complete Elijah Cummings' term following the politician's death in October 2019.</p>
+                                </div>
+                            </article>
+                        </section>
+                    </div>
+
+                    <div class="column3">
+                        <section class="show_md bg-white p-3">
+                            <h3 class="pb-2"><a class="gray_heading font-weight-bolder" href="#">OPINION</a></h3>
+
+                            <div class="d-flex border-bottom py-2">
+                                <a href="#"><img src="img/opinion1.png" alt="Opinion" /></a>
+
+                                <div class="pl-3">
+                                    <p class="pt-2"><a href="#" class="opinion_heading font-weight-bolder">The Coronavirus Crisis Is Flint, Writ Large</a></p>
+
+                                    <p class="opinion pt-2 font-weight-bold">By Candy J. Cooper With Marc Aronson</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex border-bottom py-2">
+                                <a href="#"><img src="img/opinion2.png" alt="Opinion" /></a>
+
+                                <div class="pl-3">
+                                    <p class="pt-2"><a href="#" class="opinion_heading font-weight-bolder">Don't Bail Out Fossil Fuels. Buy Them Out Instead</a></p>
+
+                                    <p class="opinion pt-2 font-weight-bold">By Wenonah Hauter</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex border-bottom py-2">
+                                <a href="#"><img src="img/opinion3.png" alt="Opinion" /></a>
+
+                                <div class="pl-3">
+                                    <p class="pt-2"><a href="#" class="opinion_heading font-weight-bolder">Most U.S. Hospitals Are Empty. Soon They Might Be Closed for Good </a></p>
+
+                                    <p class="opinion pt-2 font-weight-bold">By Rick Jackson</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex py-2 mb-3">
+                                <a href="#"><img src="img/opinion4.png" alt="Opinion" /></a>
+
+                                <div class="pl-3">
+                                    <p class="pt-2"><a href="#" class="opinion_heading font-weight-bolder">California's Pandemic Response Must Balance Health vs. Economy</a></p>
+
+                                    <p class="opinion pt-2 font-weight-bold">By John Cox</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="show_md bg-white p-3 pb-4">
+                            <h3 class="pb-3"><a class="gray_heading font-weight-bolder" href="#">THE DEBATE</a></h3>
+
+                            <div class="red_border d-flex">
+                                <a href="#"><img src="img/debate1.jpg" alt="debate" /></a>
+
+                                <div class="pl-3 d-flex align-items-center"><a class="link_debate font-weight-bolder" href="#">Trump's Right. The WHO Is Not Fit for Purpose</a></div>
+                            </div>
+
+                            <div class="double_border d-flex align-items-center">
+                                <a href="#"><img src="img/headshot1.png" alt="HEAD" /></a>
+
+                                <p class="font-weight-bold">BY <a href="#">NIGEL FARAGE</a></p>
+                            </div>
+
+                            <div class="versus d-flex justify-content-center align-items-center font-weight-bolder">VS</div>
+
+                            <div class="blue_border d-flex">
+                                <a href="#"><img src="img/debate2.jpg" alt="debate" /></a>
+
+                                <div class="pl-3 d-flex align-items-center"><a class="link_debate font-weight-bolder" href="#">Defunding the WHO Mid-Pandemic Is Lunacy</a></div>
+                            </div>
+
+                            <div class="double_border d-flex align-items-center">
+                                <a href="#"><img src="img/headshot2.png" alt="HEAD" /></a>
+
+                                <p class="font-weight-bold">BY <a href="#">JAMIE METZL</a></p>
+                            </div>
+                        </section>
+
+                        <section class="bg-white p-3">
+                            <h2 class="pb-1"><a class="gray_heading font-weight-bolder" href="#">LASTEST NEWS</a></h2>
+
+                            <article class="lastest d-flex border-bottom">
+                                <a href="#"><img src="img/lastest1.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="lastest_heading font-weight-bolder" href="#">Meet The Man Walking Around The World With Only His Dog For Company</a></h2>
+                                </div>
+                            </article>
+
+                            <article class="lastest d-flex border-bottom">
+                                <a href="#"><img src="img/lastest2.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="lastest_heading font-weight-bolder" href="#">Russian Space Chief Calls Elon Musk a 'Pentagon Contractor'</a></h2>
+                                </div>
+                            </article>
+
+                            <article class="lastest d-flex border-bottom">
+                                <a href="#"><img src="img/lastest3.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="lastest_heading font-weight-bolder" href="#">Scientists Dub Region 'Most Dangerous Place in the History of Planet Earth'</a></h2>
+                                </div>
+                            </article>
+
+                            <article class="lastest d-flex border-bottom">
+                                <a href="#"><img src="img/lastest4.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="lastest_heading font-weight-bolder" href="#">Joe Biden Would Beat Donald Trump in the General Election, Polling Shows</a></h2>
+                                </div>
+                            </article>
+
+                            <article class="lastest d-flex">
+                                <a href="#"><img src="img/lastest5.jpg" alt="Stories" /></a>
+
+                                <div class="pl-3">
+                                    <h2 class="pb-2"><a class="lastest_heading font-weight-bolder" href="#">Everything We Know So Far About The 'Duck Dynasty' Shooting Arrest and More</a></h2>
+                                </div>
+                            </article>
+                        </section>
+
+                        <div class="sponsor_section bg-white p-1">
+                            <article class="sponsor pt-3 pb-3">
+                                <div class="wrap">
+                                    <a href="#"><img class="sponsor_img" src="img/sponsor4.jpg" alt="Sponsor" /></a>
+
+                                    <p class="sponsor_category font-weight-bolder">SPONSORED INSIGHT</p>
+                                </div>
+
+                                <div class="sponsor_border">
+                                    <h2 class="pb-2"><a class="sponsor_heading  font-weight-bolder" href="#">What Sets the Leading Liberal Arts Schools Apart?</a></h2>
+
+                                    <p class="sponsor_text">There are a number of great Liberal Arts Schools in the USA today, but what qualities do the best of them have?</p>
+                                </div>
+                            </article>
+
+                            <div class="sponsor signup_form border">
+                                <h2 class="signup_heading d-flex justify-content-center align-items-center pb-3 font-weight-bolder"><img class="heading_logo mr-2" src="img/icon.png" alt="LOGO" />SIGN UP FOR OUR NEWSLETTER</h2>
+
+                                <a class="signup_button font-weight-bolder" href="#">SIGN UP<span class="pl-2"><i class="fas fa-chevron-right"></i></span></a>
+
+                                <p class="mt-4"><a class="update font-weight-bold" href="#">Update your preferences »</a></p>
+                            </div>
+
+                            <article class="sponsor pb-3">
+                                <div class="wrap">
+                                    <a href="#"><img class="sponsor_img" src="img/sponsor5.jpg" alt="Sponsor" /></a>
+
+                                    <p class="sponsor_category font-weight-bolder">SPONSORED INSIGHT</p>
+                                </div>
+
+                                <div class="sponsor_border">
+                                    <h2 class="pb-2"><a class="sponsor_heading font-weight-bolder" href="#">What Qualities Make a Leading University?</a></h2>
+
+                                    <p class="sponsor_text">A Leading University has to have a track record of producing well qualified, gifted and employable candidates. Which schools earn the accolade?</p>
+                                </div>
+                            </article>
+
+                            <article class="sponsor pb-3">
+                                <div class="wrap">
+                                    <a href="#"><img class="sponsor_img" src="img/sponsor6.jpg" alt="Sponsor" /></a>
+
+                                    <p class="sponsor_category font-weight-bolder">SPONSORED INSIGHT</p>
+                                </div>
+
+                                <div class="sponsor_border">
+                                    <h2 class="pb-2"><a class="sponsor_heading font-weight-bolder" href="#">How Can a Good Business Education Benefit You?</a></h2>
+
+                                    <p class="sponsor_text">Enrolling at a good Business School might be the best investment you can make in your future, and while costs can be significant, the rewards are incalculable. Find out more.</p>
+                                </div>
+                            </article>
+
+                            <article class="sponsor">
+                                <div class="wrap">
+                                    <a href="#"><img class="sponsor_img" src="img/sponsor7.jpg" alt="Sponsor" /></a>
+
+                                    <p class="sponsor_category font-weight-bolder">SPONSORED INSIGHT</p>
+                                </div>
+
+                                <div class="sponsor_border">
+                                    <h2 class="pb-2"><a class="sponsor_heading font-weight-bolder" href="#">What Is Your Accounting And Finance Team Missing?</a></h2>
+
+                                    <p class="sponsor_text">Have you ever wanted more from your accounting and finance professionals? These three letters can help.</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="bg-white p-3">
+                    <h1 class="heading1 d-flex justify-content-center align-items-center pb-3 border-bottom font-weight-bolder"><img class="heading_logo mr-2" src="img/icon.png" alt="LOGO" />IN THE MAGAZINE</h1>
+
+                    <div class="row">
+                        <div class="col-md-3 pb-3">
+                            <div class="wrap">
+                                <img class="megazine_cover" src="img/megazine1.jpg" alt="Megazine Cover" />
+
+                                <a class="category font-weight-bolder" href="#">MAY 01 ISSUE</a>
+                            </div>
+
+                            <a class="gray_button font-weight-bolder" href="#">SEE ALL FEATURES<span class="pl-2"><i class="fas fa-chevron-right"></i></span></a>
+                        </div>
+
+                        <article class="col-md-3 pb-3 pt-lg-3">
+                            <div class="megazine_article_img megazine2 mb-2"></div>
+
+                            <div class="mb-3">
+                                <span class="megazine_section font-weight-bolder">COVER</span><a class="megazine_category font-weight-bolder" href="#">POLITICS</a>
+                            </div>
+
+                            <h2><a class="megazine_link_heading2 font-weight-bolder" href="#">Michigan Governor Gretchen Whitmer May Pay a Price for Strict COVID Rules</a></h2>
+                        </article>
+
+                        <article class="col-md-3 pb-3 pt-lg-3">
+                            <div class="megazine_article_img megazine3 mb-2"></div>
+
+                            <div class="mb-3">
+                                <span class="megazine_section font-weight-bolder">COVER</span><a class="megazine_category font-weight-bolder" href="#">POLITICS</a>
+                            </div>
+
+                            <h2><a class="megazine_link_heading2 font-weight-bolder" href="#">Michigan Governor Gretchen Whitmer Talks Trump, VP Rumors And More</a></h2>
+                        </article>
+
+                        <article class="col-md-3 pb-3 pt-lg-3">
+                            <div class="megazine_article_img megazine4 mb-2"></div>
+
+                            <div class="mb-3">
+                                <span class="megazine_section font-weight-bolder">FEATURES</span><a class="megazine_category font-weight-bolder" href="#">HEALTH</a>
+                            </div>
+
+                            <h2><a class="megazine_link_heading2 font-weight-bolder" href="#">How Doctors are Saving Coronavirus Patients with Innovative New Techniques</a></h2>
+                        </article>
+
+                        <article class="col-md-3 pb-3">
+                            <div class="megazine_article_img megazine5 mb-2"></div>
+
+                            <div class="mb-3">
+                                <span class="megazine_section font-weight-bolder">PERISCOPE</span><a class="megazine_category font-weight-bolder" href="#">CULTURE</a>
+                            </div>
+
+                            <h2><a class="megazine_link_heading2 font-weight-bolder" href="#">Exclusive: How FEMA Missed a Chance to Prepare for Coronavirus Pandemic</a></h2>
+                        </article>
+
+                        <article class="col-md-3 pb-3">
+                            <div class="megazine_article_img megazine6 mb-2"></div>
+
+                            <div class="mb-3">
+                                <span class="megazine_section font-weight-bolder">DOWNTIME</span><a class="megazine_category font-weight-bolder" href="#">CULTURE</a>
+                            </div>
+
+                            <h2><a class="megazine_link_heading2 font-weight-bolder" href="#">Ten Surprising Things We Learned from the Michael Jordan ESPN Documentary</a></h2>
+                        </article>
+
+                        <article class="col-md-3 pb-3">
+                            <div class="megazine_article_img megazine7 mb-2"></div>
+
+                            <div class="mb-3">
+                                <span class="megazine_section font-weight-bolder">DOWNTIME</span><a class="megazine_category font-weight-bolder" href="#">CULTURE</a>
+                            </div>
+
+                            <h2><a class="megazine_link_heading2 font-weight-bolder" href="#">10 Books That Will Transport You All Around the World</a></h2>
+                        </article>
+
+                        <article class="col-md-3 pb-3">
+                            <div class="megazine_article_img megazine8 mb-2"></div>
+
+                            <div class="mb-3">
+                                <span class="megazine_section font-weight-bolder">IN FOCUS</span>
+                            </div>
+
+                            <h2><a class="megazine_link_heading2 font-weight-bolder" href="#">NO PLACE LIKE HOME</a></h2>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="bg-white p-3">
+                    <h1 class="heading1 d-flex justify-content-center align-items-center pb-3 border-bottom font-weight-bolder"><img class="heading_logo mr-2" src="img/icon.png" alt="LOGO" />EDITOR'S PICK</h1>
+
+                    <div class="row">
+                        <article class="col-md-6 col-lg-3 pb-3">
+                            <div class="wrap">
+                                <a href="#"><img class="article_img" src="img/article1.jpg" alt="Voters" /></a>
+
+                                <a class="category font-weight-bolder" href="#">U.S.</a>
+                            </div>
+
+                            <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">Florida Voters Think White House Responded Too Slowly to Coronavirus: Poll</a></h2>
+
+                            <p class="article_text">President Trump was also found to be three points behind former Vice President Joe Biden in head-to-head polling from the state.</p>
+                        </article>
+
+                        <article class="col-md-6 col-lg-3 pb-3">
+                            <div class="wrap">
+                                <a href="#"><img class="article_img" src="img/article2.jpg" alt="Trump" /></a>
+
+                                <a class="category font-weight-bolder" href="#">U.S.</a>
+                            </div>
+
+                            <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">Donald Trump, Justin Trudeau, Queen Rania and Others Share Ramadan Messages</a></h2>
+
+                            <p class="article_text">Heads of state across the world have emphasized the importance of social distancing during Ramadan.</p>
+                        </article>
+
+                        <article class="col-md-6 col-lg-3 pb-3">
+                            <div class="wrap">
+                                <a href="#"><img class="article_img" src="img/article3.jpg" alt="Vaccine" /></a>
+
+                                <a class="category font-weight-bolder" href="#">HEALTH</a>
+                            </div>
+
+                            <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">Coronavirus Vaccine Trial Participant Reveals Potential Side Effects</a></h2>
+
+                            <p class="article_text">There are over 100 potential vaccines in development around the world, with the Oxford group among the first to test theirs in human volunteers.</p>
+                        </article>
+
+                        <article class="col-md-6 col-lg-3 pb-3">
+                            <div class="wrap">
+                                <a href="#"><img class="article_img" src="img/article4.jpg" alt="Prisoners" /></a>
+
+                                <a class="category font-weight-bolder" href="#">U.S.</a>
+                            </div>
+
+                            <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">At Least 566 Federal Prisoners Test Positive For COVID-19, With 24 Deaths</a></h2>
+
+                            <p class="article_text">The Bureau of Prisons currently oversees the care of 143,407 federal inmates in the institutions it manages.</p>
+                        </article>
+
+                        <article class="col-md-6 col-lg-3 pb-3">
+                            <div class="wrap">
+                                <a href="#"><img class="article_img" src="img/article5.jpg" alt="Geological" /></a>
+
+                                <a class="category font-weight-bolder" href="#">TECH & SCIENCE</a>
+                            </div>
+
+                            <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">First Comprehensive Geological Map of the Moon Created by USGS</a></h2>
+
+                            <p class="article_text">The map was put together using six regional maps made during the Apollo era, in combination with information collected during recent lunar missions.</p>
+                        </article>
+
+                        <article class="col-md-6 col-lg-3 pb-3">
+                            <div class="wrap">
+                                <a href="#"><img class="article_img" src="img/article6.jpg" alt="Coronavirus" /></a>
+
+                                <a class="category font-weight-bolder" href="#">HEALTH</a>
+                            </div>
+
+                            <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">Can Animals Get Coronavirus? New York Pet Cats Test Positive for COVID-19</a></h2>
+
+                            <p class="article_text">Pet owners with COVID-19 should avoid "petting, snuggling, being kissed or licked, and sharing food or bedding" with their animals, the USDA said.</p>
+                        </article>
+
+                        <article class="col-md-6 col-lg-3 pb-3">
+                            <div class="wrap">
+                                <a href="#"><img class="article_img" src="img/article7.jpg" alt="Revealed" /></a>
+
+                                <a class="category font-weight-bolder" href="#">NEWS</a>
+                            </div>
+
+                            <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">Bizarre Royal Gifts Revealed Including a Bomber Jacket From Donald Trump</a></h2>
+
+                            <p class="article_text">The official list of weird and wonderful presents given to the royal family last year is out, with Donald Trump and Archbishop Desmond Tutu both making an appearance.</p>
+                        </article>
+
+                        <article class="col-md-6 col-lg-3 pb-3">
+                            <div class="wrap">
+                                <a href="#"><img class="article_img" src="img/article8.jpg" alt="Biodiversity" /></a>
+
+                                <a class="category font-weight-bolder" href="#">TECH & SCIENCE</a>
+                            </div>
+
+                            <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">Levels of Ocean Biodiversity Have Barely Changed for Millions of Years</a></h2>
+
+                            <p class="article_text">Scientists have analyzed fossils from the Cambrian explosion 540 million years ago to the present day to explore levels of marine biodiversity over time.</p>
+                        </article>
+                    </div>
+
+                    <div class="border-top pb-4">
+                        <div class="pb-2 pt-4 pl-3">
+                            <a class="red_heading2 font-weight-bolder" href="#">U.S.</a>
+                        </div>
+
+                        <div class="row">
+                            <article class="col-md-4">
+                                <a href="#"><img class="article2_img" src="img/article211.jpg" alt="Vaccine" /></a>
+
+                                <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">1 Day Sooner: Scientists Seek Volunteers for Coronavirus Vaccine Tests</a></h2>
+                            </article>
+
+                            <article class="col-md-4">
+                                <a href="#"><img class="article2_img" src="img/article212.jpg" alt="Reopening" /></a>
+
+                                <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">As Texas Plans to Extend Reopening, Some Local Businesses Say They Aren't Ready</a></h2>
+                            </article>
+
+                            <div class="col-md-4">
+                                <div class="d-flex pb-2 border-bottom mb-2">
+                                    <a href="#"><img class="article3_img" src="img/article213.jpg" alt="Reopens" /></a>
+
+                                    <a class="link_heading3 pl-3 font-weight-bolder" href="#">As Georgia Reopens Friday Atlanta Mayor Urges Residents to 'Just Stay Home</a>
+                                </div>
+
+                                <div class="d-flex pb-2 border-bottom mb-2">
+                                    <a href="#"><img class="article3_img" src="img/article214.jpg" alt="Jill" /></a>
+
+                                    <a class="link_heading3 pl-3 font-weight-bolder" href="#">Dr. Jill Biden Would 'Love' if Michelle Obama Would be Joe Biden's VP</a>
+                                </div>
+
+                                <div class="d-flex">
+                                    <a href="#"><img class="article3_img" src="img/article215.jpg" alt="Locked" /></a>
+
+                                    <a class="link_heading3 pl-3 font-weight-bolder" href="#">Locked Down With a Stimulus Check, Gambling Addicts Face 'Perfect Storm'</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border-top pb-4">
+                        <div class="pb-2 pt-4 pl-3">
+                            <a class="red_heading2 font-weight-bolder" href="#">World</a>
+                        </div>
+
+                        <div class="row">
+                            <article class="col-md-4">
+                                <a href="#"><img class="article2_img" src="img/article221.jpg" alt="Unrecognized" /></a>
+
+                                <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">Why the Armenian Genocide Remains Unrecognized by the U.S.</a></h2>
+                            </article>
+
+                            <article class="col-md-4">
+                                <a href="#"><img class="article2_img" src="img/article222.jpg" alt="Fall" /></a>
+
+                                <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">U.K. Retail Sales Fall Sharpest Since Records Began</a></h2>
+                            </article>
+
+                            <div class="col-md-4">
+                                <div class="d-flex pb-2 border-bottom mb-2">
+                                    <a href="#"><img class="article3_img" src="img/article223.jpg" alt="Korea" /></a>
+
+                                    <a class="link_heading3 pl-3 font-weight-bolder" href="#">Russia Sends Flowers to Absent Kim Jong Un as U.S., South Korea Hold Drills</a>
+                                </div>
+
+                                <div class="d-flex pb-2 border-bottom mb-2">
+                                    <a href="#"><img class="article3_img" src="img/article224.jpg" alt="Critics" /></a>
+
+                                    <a class="link_heading3 pl-3 font-weight-bolder" href="#">China Ambassador Rails Against 'Insolence' of Coronavirus Critics</a>
+                                </div>
+
+                                <div class="d-flex">
+                                    <a href="#"><img class="article3_img" src="img/article225.jpg" alt="Destroy" /></a>
+
+                                    <a class="link_heading3 pl-3 font-weight-bolder" href="#">Iran Vows to Destroy Any Threatening U.S. Forces in the Persian Gulf</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border-top pb-4">
+                        <div class="pb-2 pt-4 pl-3">
+                            <a class="red_heading2 font-weight-bolder" href="#">Business</a>
+                        </div>
+
+                        <div class="row">
+                            <article class="col-md-4">
+                                <a href="#"><img class="article2_img" src="img/article231.jpg" alt="Unemployment" /></a>
+
+                                <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">More People Have Filed for Unemployment Than Live in 10 Largest U.S. Cities</a></h2>
+                            </article>
+
+                            <article class="col-md-4">
+                                <a href="#"><img class="article2_img" src="img/article232.jpg" alt="Receive" /></a>
+
+                                <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">Fogo de Chão To Receive $20 Million In Small Business Loan</a></h2>
+                            </article>
+
+                            <div class="col-md-4">
+                                <div class="d-flex pb-2 border-bottom mb-2">
+                                    <a href="#"><img class="article3_img" src="img/article233.jpg" alt="Oil" /></a>
+
+                                    <a class="link_heading3 pl-3 font-weight-bolder" href="#">Low Oil Prices Could Stretch Into May, Analysts Say Following Collapse</a>
+                                </div>
+
+                                <div class="d-flex pb-2 border-bottom mb-2">
+                                    <a href="#"><img class="article3_img" src="img/article234.jpg" alt="Protest" /></a>
+
+                                    <a class="link_heading3 pl-3 font-weight-bolder" href="#">Amazon Staffers Protest Company After 75 Test Positive for Coronavirus</a>
+                                </div>
+
+                                <div class="d-flex">
+                                    <a href="#"><img class="article3_img" src="img/article235.jpg" alt="Record" /></a>
+
+                                    <a class="link_heading3 pl-3 font-weight-bolder" href="#">US Gas Prices Hit Record Lows as Crude Oil Crashes Below $0 For First Time</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border-top pb-4">
+                        <div class="pb-2 pt-4 pl-3">
+                            <a class="red_heading2 font-weight-bolder" href="#">Tech & Science</a>
+                        </div>
+
+                        <div class="row">
+                            <article class="col-md-4">
+                                <a href="#"><img class="article2_img" src="img/article241.jpg" alt="Birthday" /></a>
+
+                                <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">NASA Marks Hubble's 30th Birthday With Stunning Image of 'Cosmic Reef'</a></h2>
+                            </article>
+
+                            <article class="col-md-4">
+                                <a href="#"><img class="article2_img" src="img/article242.jpg" alt="Sakurajima" /></a>
+
+                                <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">Japan's Sakurajima Volcano Erupts, Spewing Lava Bombs and Ash Into Air</a></h2>
+                            </article>
+
+                            <div class="col-md-4">
+                                <div class="d-flex pb-2 border-bottom mb-2">
+                                    <a href="#"><img class="article3_img" src="img/article243.jpg" alt="Nintendo" /></a>
+
+                                    <a class="link_heading3 pl-3 font-weight-bolder" href="#">Nintendo Confirms Hack Attack Has Exposed 160,000 User Accounts</a>
+                                </div>
+
+                                <div class="d-flex pb-2 border-bottom mb-2">
+                                    <a href="#"><img class="article3_img" src="img/article244.jpg" alt="Losing" /></a>
+
+                                    <a class="link_heading3 pl-3 font-weight-bolder" href="#">The World is Losing 9 Percent of Its Insects Every Decade, Study Finds</a>
+                                </div>
+
+                                <div class="d-flex">
+                                    <a href="#"><img class="article3_img" src="img/article245.jpg" alt="Elephants" /></a>
+
+                                    <a class="link_heading3 pl-3 font-weight-bolder" href="#">Thailand's Elephants May Starve as Tourism Stalls During COVID-19 Crisis</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border-top pb-4">
+                        <div class="pb-2 pt-4 pl-3">
+                            <a class="red_heading2 font-weight-bolder" href="#">Culture</a>
+                        </div>
+
+                        <div class="row">
+                            <article class="col-md-4">
+                                <a href="#"><img class="article2_img" src="img/article251.jpg" alt="Nickname" /></a>
+
+                                <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">Pilot Pete's Dad Has An Odd Nickname for Kelley Flanagan</a></h2>
+                            </article>
+
+                            <article class="col-md-4">
+                                <a href="#"><img class="article2_img" src="img/article252.jpg" alt="Williams" /></a>
+
+                                <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">Lucinda Williams and More Release New Music: What You Should Stream</a></h2>
+                            </article>
+
+                            <div class="col-md-4">
+                                <div class="d-flex pb-2 border-bottom mb-2">
+                                    <a href="#"><img class="article3_img" src="img/article253.jpg" alt="Watch" /></a>
+
+                                    <a class="link_heading3 pl-3 font-weight-bolder" href="#">How to Watch the 'Parks and Recreation' Charity Special</a>
+                                </div>
+
+                                <div class="d-flex pb-2 border-bottom mb-2">
+                                    <a href="#"><img class="article3_img" src="img/article254.jpg" alt="Recreation" /></a>
+
+                                    <a class="link_heading3 pl-3 font-weight-bolder" href="#">'Parks and Recreation' Reunion Release Date, Cast, Trailer, Plot</a>
+                                </div>
+
+                                <div class="d-flex">
+                                    <a href="#"><img class="article3_img" src="img/article255.jpg" alt="Grace" /></a>
+
+                                    <a class="link_heading3 pl-3 font-weight-bolder" href="#">'Will and Grace' Finale: What Happened in the Last Ever Episode?</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border-top pb-4">
+                        <div class="pb-2 pt-4 pl-3">
+                            <a class="red_heading2 font-weight-bolder" href="#">Sports</a>
+                        </div>
+
+                        <div class="row">
+                            <article class="col-md-4">
+                                <a href="#"><img class="article2_img" src="img/article261.jpg" alt="Talks" /></a>
+
+                                <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">Q&A: Triple H Talks Career</a></h2>
+                            </article>
+
+                            <article class="col-md-4">
+                                <a href="#"><img class="article2_img" src="img/article262.jpg" alt="Draft" /></a>
+
+                                <h2 class="py-2"><a class="link_heading2 font-weight-bolder" href="#">NFL Draft 2020: All You Need to Know about the Second and Third Round</a></h2>
+                            </article>
+
+                            <div class="col-md-4">
+                                <div class="d-flex pb-2 border-bottom mb-2">
+                                    <a href="#"><img class="article3_img" src="img/article263.jpg" alt="Draft" /></a>
+
+                                    <a class="link_heading3 pl-3 font-weight-bolder" href="#">NFL Draft Order 2020: Complete List of Second-Round Picks</a>
+                                </div>
+
+                                <div class="d-flex pb-2 border-bottom mb-2">
+                                    <a href="#"><img class="article3_img" src="img/article264.jpg" alt="Winners" /></a>
+
+                                    <a class="link_heading3 pl-3 font-weight-bolder" href="#">NFL Draft 2020 Winners and Losers From Round 1, According to the Experts</a>
+                                </div>
+
+                                <div class="d-flex">
+                                    <a href="#"><img class="article3_img" src="img/article265.jpg" alt="Rodgers" /></a>
+
+                                    <a class="link_heading3 pl-3 font-weight-bolder" href="#">The End of the Rodgers Era? Packers Shock NFL by Drafting Jordan Love</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="d-flex flex-column flex-lg-row border-top bg_gray0">
+                    <div class="subscribe_container bg-white px-3 py-4">
+                        <h2 class="red_heading pb-2 font-weight-bolder">SUBSCRIBE</h2>
+
+                        <div class="subscribe d-flex flex-column flex-md-row p-4 bg_gray0">
+                            <div class="subscribe_imgs">
+                                <img class="subscribe_img" src="img/cover1.jpg" alt="WHO WOULD YOU SAVE" />
+                                <img class="subscribe_img" src="img/cover2.jpg" alt="IM PULLIN OUT ALL THE STOPS" />
+                            </div>
+
+                            <div class="pl-4 py-4">
+                                <h2 class="heading2 font-weight-bolder">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h2>
+
+                                <p class="pb-2">All Access + Weekly Delivery.</p>
+                                <p class="pb-4">Choose A Membership That's Perfect for You!</p>
+
+                                <a class="red_button font-weight-bolder" href="#">SUBSCRIBE<span class="pl-2"><i class="fas fa-chevron-right"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="newsletter_container bg-white px-3 pt-4 pb-5">
+                        <h2 class="red_heading pb-2 font-weight-bolder">NEWSLETTER</h2>
+
+                        <div class="newsletter d-flex flex-column flex-md-row bg-white border">
+                            <div class="newsletter_img"></div>
+
+                            <div class="p-4">
+                                <h2 class="heading2 font-weight-bolder">The Starting 5</h2>
+
+                                <p class="newsletter_text pb-4">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+
+                                <a class="red_button font-weight-bolder" href="#">SIGN UP<span class="pl-2"><i class="fas fa-chevron-right"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <footer class="container-fluid border-top p-4 bg-white">
+                <div class="footer_copyright d-flex flex-column flex-md-row justify-content-md-between border-bottom">
+                    <div class="d-flex flex-column flex-md-row">
+                        <a class="footer_logo_anchor mr-3 pb-2" href="#"><img class="footer_logo" src="img/red_logo.svg" alt="Logo" /></a>
+
+                        <p class="copyright align-self-md-end pb-2"><i class="far fa-copyright"></i> 2020 NEWSWEEK</p>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <a class="social facebook_anchor pb-2" href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a class="social twitter_anchor ml-3" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="social instagram_anchor ml-3" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="social tumblr_anchor ml-3" href="#"><i class="fab fa-tumblr"></i></a>
+                        <a class="social linkedin_anchor ml-3" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="d-flex flex-row flex-wrap py-2">
+                        <strong class="footer_strong font-weight-bold">Editions:</strong>
+                        <a class="footer_anchor pl-3 pr-2" href="#">U.S. Edition</a>
+                        <a class="footer_anchor border-left ml-2 pl-2" href="#">日本</a>
+                        <a class="footer_anchor border-left ml-2 pl-2" href="#">Pakistan</a>
+                        <a class="footer_anchor border-left ml-2 pl-2" href="#">Polska</a>
+                        <a class="footer_anchor border-left ml-2 pl-2" href="#">România</a>
+                    </div>
+
+                    <div class="d-flex flex-row flex-wrap">
+                        <div class="py-1"><a class="footer_anchor border-right pr-2 mr-2" href="#">About Us</a></div>
+                        <div class="py-1"><a class="footer_anchor border-right pr-2 mr-2" href="#">Corrections</a></div>
+                        <div class="py-1"><a class="footer_anchor border-right pr-2 mr-2" href="#">Contact Us</a></div>
+                        <div class="py-1"><a class="footer_anchor border-right pr-2 mr-2" href="#">Editorial Guidelines</a></div>
+                        <div class="py-1"><a class="footer_anchor border-right pr-2 mr-2" href="#">Advertise</a></div>
+                        <div class="py-1"><a class="footer_anchor border-right pr-2 mr-2" href="#">Copyright</a></div>
+                        <div class="py-1"><a class="footer_anchor border-right pr-2 mr-2" href="#">Terms & Conditions</a></div>
+                        <div class="py-1"><a class="footer_anchor border-right pr-2 mr-2" href="#">Privacy Policy</a></div>
+                        <div class="py-1"><a class="footer_anchor border-right pr-2 mr-2" href="#">Cookie Policy</a></div>
+                        <div class="py-1"><a class="footer_anchor border-right pr-2 mr-2" href="#">Terms of Sale</a></div>
+                        <div class="py-1"><a class="footer_anchor border-right pr-2 mr-2" href="#">Archive</a></div>
+                        <div class="py-1"><a class="footer_anchor border-right pr-2 mr-2" href="#">Announcements</a></div>
+                        <div class="py-1"><a class="footer_anchor" href="#">Consent preferences</a></div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
         <script src="js/font_awesome.min.js"></script>
     </body>
 </html>
