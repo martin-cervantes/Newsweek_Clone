@@ -13,7 +13,7 @@
 
 ## :mag: Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/mcervantes71/Newsweek_Clone/bd0f6fc531885a384c22fdaf0c4130946f403caa/index.html)
+[Live Demo Link](https://mcervantes71.github.io/Newsweek_Clone/index.html)
 
 ## :busts_in_silhouette: Authors
 
