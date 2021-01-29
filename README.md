@@ -1,6 +1,6 @@
-# Project Name
+# Newsweek Clone
 
-    This project is about creating a replica of the Newsweek.com news site using the Bootstrap framework.
+This project is about creating a replica of the Newsweek.com news site using the Bootstrap framework.
 
 ![screenshot](./screenshot.png)
 
